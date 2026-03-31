@@ -24,7 +24,7 @@ export default function Services() {
     ];
 
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white py-20" id="services">
             <div className="mx-auto px-6 md:text-left text-center container">
                 <h2 className="inline-block after:-bottom-3 after:left-0 after:absolute relative after:bg-maroon mb-12 after:rounded-full after:w-16 after:h-1 font-bold text-3xl md:text-4xl after:content-['']">
                     Fokus Utama Saya
@@ -41,9 +41,9 @@ export default function Services() {
                             </div>
                             <h3 className="mb-3 font-bold text-maroon-dark text-2xl">{service.title}</h3>
                             <p className="mb-6 text-[#3a3a3a]">{service.desc}</p>
-                            <span className="bg-maroon px-4 py-1 rounded-full font-bold text-white text-xs uppercase tracking-wider">
+                            {/* <span className="bg-maroon px-4 py-1 rounded-full font-bold text-white text-xs uppercase tracking-wider">
                                 {service.tag}
-                            </span>
+                            </span> */}
                         </motion.div>
                     ))}
                 </div>

@@ -25,13 +25,15 @@ export default function Experience() {
             title: "Media Kreatif Awanku Projek",
             date: "5 Juli 2020 - Sekarang",
             points: [
-                "Jasa visualisasi produk, dokumentasi event, dan desain grafis"
+                "Jasa Visualisasi Produk",
+                "Dokumentasi Event",
+                "Desain Grafis"
             ]
         }
     ];
 
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white py-20" id="experience">
             <div className="mx-auto px-6 container">
                 <h2 className="inline-block after:-bottom-3 after:left-0 after:absolute relative after:bg-maroon mb-12 after:rounded-full after:w-16 after:h-1 font-bold text-3xl md:text-4xl after:content-['']">
                     Pengalaman Magang

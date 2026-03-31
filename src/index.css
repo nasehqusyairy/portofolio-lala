@@ -11,8 +11,12 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
   body {
-    @apply bg-warm-white text-[#1e1e1e] antialiased;
+    @apply bg-warm-white text-[#1e1e1e] scroll-smooth antialiased;
   }
 }
 

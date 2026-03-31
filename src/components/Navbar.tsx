@@ -15,9 +15,10 @@ export default function Navbar() {
                 {/* Desktop Nav */}
                 <div className="hidden md:flex items-center gap-8 font-medium text-[#2c2c2c]">
                     <a href="#" className="hover:text-maroon transition-colors">Beranda</a>
-                    <a href="#" className="hover:text-maroon transition-colors">Karya</a>
-                    <a href="#" className="hover:text-maroon transition-colors">Layanan</a>
-                    <a href="#" className="bg-maroon hover:bg-maroon-dark px-6 py-2 rounded-full text-white transition-colors">Kontak</a>
+                    <a href="#services" className="hover:text-maroon transition-colors">Fokus</a>
+                    <a href="#experience" className="hover:text-maroon transition-colors">Pengalaman</a>
+                    <a href="#gallery" className="hover:text-maroon transition-colors">Karya</a>
+                    <a href="#contact" className="bg-maroon hover:bg-maroon-dark px-6 py-2 rounded-full text-white transition-colors">Kontak</a>
                 </div>
 
                 {/* Mobile Menu Toggle */}
