@@ -35,9 +35,10 @@ export default function Navbar() {
                     className="md:hidden flex flex-col gap-4 bg-white p-6 border-maroon/10 border-t font-medium"
                 >
                     <a href="#" className="hover:text-maroon">Beranda</a>
-                    <a href="#" className="hover:text-maroon">Karya</a>
-                    <a href="#" className="hover:text-maroon">Layanan</a>
-                    <a href="#" className="text-maroon">Kontak</a>
+                    <a href="#services" className="hover:text-maroon">Fokus</a>
+                    <a href="#experience" className="hover:text-maroon">Pengalaman</a>
+                    <a href="#gallery" className="hover:text-maroon">Karya</a>
+                    <a href="#contact" className="text-maroon">Kontak</a>
                 </motion.div>
             )}
         </nav>
