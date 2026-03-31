@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-maroon: #800020;
+  --color-maroon-light: #a13d5f;
+  --color-maroon-dark: #4d0013;
+  --color-beige: #f5efe9;
+  --color-warm-white: #fbf7f2;
+}
+
+@layer base {
+  body {
+    @apply bg-warm-white text-[#1e1e1e] antialiased;
+  }
+}
+
+@layer utilities {
+  .hero-visual-blob {
+    border-radius: 50% 50% 30% 70% / 40% 30% 70% 60%;
+  }
+}
