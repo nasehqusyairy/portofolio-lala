@@ -32,7 +32,7 @@ export default function Contact() {
                 <div className="gap-12 grid md:grid-cols-5 bg-white shadow-2xl shadow-maroon/10 p-8 md:p-16 border border-maroon/15 rounded-[48px]">
                     <div className="md:col-span-2">
                         <h3 className="mb-6 font-bold text-maroon text-3xl leading-tight">Mari ngobrol<br />seputar desain</h3>
-                        <p className="mb-10 text-[#3f3f3f]">Butuh poster untuk acara atau feed yang aesthetic? Saya siap membantu dengan palet maroon yang hangat.</p>
+                        <p className="mb-10 text-[#3f3f3f]">Butuh poster untuk acara atau feed yang aesthetic? Saya siap membantu dengan hangat.</p>
 
                         <div className="space-y-6">
                             <div className="flex items-center gap-5">
